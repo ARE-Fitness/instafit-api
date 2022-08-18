@@ -1,0 +1,43 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Focus elearning backend",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Taitanosoft",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.817.0",
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "const": "^1.0.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-jwt": "^5.3.3",
+    "express-session": "^1.17.1",
+    "express-validator": "^6.5.0",
+    "formidable": "^1.2.2",
+    "helmet": "^4.4.1",
+    "i": "^0.3.6",
+    "instamojo-nodejs": "0.0.5",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "mailgun-js": "^0.22.0",
+    "mongoose": "^5.12.4",
+    "morgan": "^1.9.1",
+    "node-schedule": "^2.0.0",
+    "node-ses": "^3.0.3",
+    "nodemailer": "^6.4.17",
+    "nodemon": "^2.0.4",
+    "npm": "^6.13.0",
+    "shortid": "^2.2.16",
+    "uuid": "^3.4.0",
+    "vimeo": "^2.1.1",
+    "xlsx": "^0.17.1"
+  }
+}

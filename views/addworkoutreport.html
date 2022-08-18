@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Member Test</title>
+        <style>
+            .inpputenter{
+                font-size: 12px; height: 20px; padding-inline: 5px; border-radius: 5px; border: 1px solid black; outline: none; margin: 5px;
+            }
+            .divinputcontainer{
+                margin: 5px;
+                display: flex; flex-direction: row; justify-content: center; justify-items: center; align-content: center; align-items: center;
+            }
+            .containerdiv{
+                border: 1px dashed grey; margin: 0 auto 0 auto; width: fit-content;
+            }
+            .btnadd{
+                height: 30px;
+                width: 50px;
+                background-color:black;
+                color: blanchedalmond;
+                cursor: grabbing;
+                outline: none;
+                border-radius: 5px;
+                border: none;
+            }
+            .reportlist{
+                width:500px;
+                height: 300px;
+                margin: 0 auto 0 auto;
+                border: 1px dotted blue;
+                margin: 5px;
+                overflow-y: auto;
+                overflow-x: hidden;
+            }
+            .reportcard{
+                width: 490px;
+                text-align: left;
+                border-radius: 5px;
+               background-color:gainsboro;
+            }
+            .savebtn{
+                width: 150px;
+                height: 30px;
+                color: blanchedalmond;
+                background-color: black;
+                border: none;
+                outline: none;
+                border-radius: 5px;
+            }
+        </style>
+    </head>
+    <body>
+       <center>
+            <h3>Add Workout Reports</h3>
+       </center>
+       &nbsp;
+        <div class="containerdiv">
+            <div class="divinputcontainer">
+                <input placeholder="name" class="inpputenter"/>
+                <select class="inpputenter">
+                    <option>unit type</option>
+                    <option>weight</option>
+                    <option>time</option>
+                    <option>number</option>
+                </select>
+                <select class="inpputenter">
+                    <option>unit</option>
+                    <option>KG</option>
+                    <option>LG</option>
+                    <option>Sec</option>
+                    <option>Hour</option>
+                    <option>Minute</option>
+                    <option>none</option>
+                </select>
+                <input placeholder="value" class="inpputenter"/>
+                <input placeholder="set" class="inpputenter"/>
+                <input placeholder="rep" class="inpputenter"/>
+                <button class="btnadd">Add</button>
+            </div>
+        </div>
+        &nbsp;
+        <center>
+            <div class="reportlist">
+                <p style="text-decoration: underline;">Report List</p>
+                <div class="reportcard">
+                    <p style="padding: 5px;">Report name</p>
+                </div>
+            </div>
+            <button class="savebtn">Save</button>
+        </center>
+        
+    </body>
+</html>

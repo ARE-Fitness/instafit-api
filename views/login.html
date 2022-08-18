@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <title>Member Test</title>
+        <meta name="google-signin-client_id" content="1088315181660-tkrh6pa19f8df5n33nlfrcsttqaad0id.apps.googleusercontent.com"/>
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://apis.google.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+
+       <style>
+            html  {
+                height: 100vh;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .formcontainer{
+              width: 300px;
+              height: fit-content;
+              border: 1px dashed gray;
+            }
+            h3{
+                margin-top: 100px; text-decoration: underline;
+            }
+            label{
+                font-size: 18px;  margin: 5px;
+            }
+            select{
+                font-size: 18px;
+            }
+        </style>
+      <script src="https://apis.google.com/js/platform.js" async defer></script>
+        <script>
+            function onSignIn(googleUser) {
+                var profile = googleUser.getBasicProfile();
+                console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
+                console.log('Name: ' + profile.getName());
+                console.log('Image URL: ' + profile.getImageUrl());
+                console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
+            }
+        </script>
+      
+    </head>
+    <body>
+
+
+        <h3>Login As Member</h3>
+        <div class="formcontainer">
+            &nbsp;
+             
+                  <div>
+                    <label for="gym" >Choose Gym</label>
+                    <select id="Gym">
+                    <option>Gym Name 1</option>
+                    <option>Gym Name 1</option>
+                    </select>
+                   </div>
+                   &nbsp;
+                   <div>
+                    <label for="branch" >Choose Branch</label>
+                    <select id="branch">
+                    <option>Branch Name 1</option>
+                    <option>Branchn name 2</option>
+                    </select>
+                   </div>
+                   &nbsp;
+                   <div  class="g-signin2" data-onsuccess="onSignIn"></div>
+               
+            &nbsp;
+        </div>
+
+    </body>
+</html>

@@ -1,0 +1,161 @@
+{
+    "Conditions":[
+        {
+            "question":"Are you currently under a doctor's supervision ?",
+            "isMarked":false,
+            "attributes":[
+                {
+                    "itemName":"Doctor",
+                    "itemValue":"Doctor Name",
+                    "itemView":0
+                },
+                {
+                    "itemName":"Doctor",
+                    "itemValue":"Doctor Name",
+                    "itemView":0
+                }
+            ]
+        },
+        {
+            "question":"Have you ever had an exercise stress test ?",
+            "isMarked":false,
+            "attributes":[
+                {
+                    "itemName":"Doctor",
+                    "itemValue":"Doctor Name",
+                    "itemView":0
+                },
+                {
+                    "itemName":"Doctor",
+                    "itemValue":"Doctor Name",
+                    "itemView":0
+                }
+            ]
+        },
+        {
+            "question":"Do you smoke ?",
+            "isMarked":false,
+            "attributes":[
+                {
+                    "itemName":"Frequency",
+                    "itemValue":"Select Frequency",
+                    "itemView":0
+                },
+                {
+                    "itemName":"Since",
+                    "itemValue":"Select Date",
+                    "itemView":0
+                }
+            ]
+        },
+        {
+            "question":"Do you take alcohol?",
+            "isMarked":false,
+            "attributes":[
+                {
+                    "itemName":"Options",
+                    "itemValue":"nan",
+                    "itemView":1
+                },
+                {
+                    "itemName":"Since",
+                    "itemValue":"Select Date",
+                    "itemView":0
+                }
+            ]
+        },
+        {
+            "question":"Are you pregnant?",
+            "isMarked":false,
+            "attributes":[
+                {
+                    "itemName":"Phase",
+                    "itemValue":"Select Phase",
+                    "itemView":0
+                }
+            ]
+        },
+        {
+            "question":"Is your stress level high?",
+            "isMarked":false,
+            "attributes":[
+              
+            ]
+        },
+        {
+            "question":"High Blood Pressure ?",
+            "isMarked":false,
+            "attributes":[
+                {
+                    "itemName":"SBP",
+                    "itemValue":"SBP Value",
+                    "itemView":0
+                },
+                {
+                    "itemName":"Date",
+                    "itemValue":"Select Date",
+                    "itemView":0
+                },
+                {
+                    "itemName":"DBP",
+                    "itemValue":"DBP Value",
+                    "itemView":0
+                },
+                {
+                    "itemName":"Date",
+                    "itemValue":"Select Date",
+                    "itemView":0
+                }
+            ]
+        },
+        {
+            "question":"High cholestrol ?",
+            "isMarked":false,
+            "attributes":[
+                {
+                    "itemName":"Result",
+                    "itemValue":"Value in mg/dl",
+                    "itemView":0
+                }
+            ]
+        },
+        {
+            "question":"Diabetes ?",
+            "isMarked":false,
+            "attributes":[
+                {
+                    "itemName":"Result",
+                    "itemValue":"Value in mg/dl",
+                    "itemView":0
+                },
+                {
+                    "itemName":"Type",
+                    "itemValue":"Select Type",
+                    "itemView":2
+                }
+            ]
+        },
+        {
+            "question":"Any bone or joint injury in the past ?",
+            "isMarked":false,
+            "attributes":[
+                {
+                    "itemName":"Mention in details",
+                    "itemValue":"",
+                    "itemView":3
+                }
+            ]
+        },
+        {
+            "question":"Any muscle or ligament injury in the past?",
+            "isMarked":false,
+            "attributes":[
+                {
+                    "itemName":"Mention in details",
+                    "itemValue":"",
+                    "itemView":3
+                }
+            ]
+        }
+    ]
+}
